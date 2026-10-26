@@ -1,6 +1,7 @@
-
+node_modules
+.next
+out
 .env
-.env.*
-!.env.example
-node_modules/
-dist/
+.env.local
+*.log
+.DS_Store
