@@ -1,0 +1,23 @@
+src/
+  app/
+    api/
+      admin/          # login/logout and protected CRUD API
+      public/         # public content APIs
+    admin/            # protected CMS interface
+    globals.css
+    layout.tsx
+    page.tsx           # animated public landing page
+  components/
+    admin/             # CMS UI
+    ContentSection.tsx
+    Navbar.tsx
+    Reveal.tsx
+  lib/
+    auth.ts            # signed HTTP-only admin sessions
+    collections.ts
+    db.ts              # MongoDB connection
+    seed.ts             # starter content/fallback cards
+public/
+  images/
+    battlexa-logo.png
+    founders/           # add Sachin and Xtreme portraits
